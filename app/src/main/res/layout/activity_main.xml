@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/q"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/layout_margin"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/debug_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/bottom_margin"
+            android:text="@string/welcome"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/textsize" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/bottom_margin">
+
+            <android.support.v7.widget.AppCompatEditText
+                android:textStyle="bold"
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/name_text_filed_hint" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/bottom_margin">
+
+            <android.support.v7.widget.AppCompatEditText
+                android:inputType="number"
+                android:textStyle="bold"
+                android:id="@+id/age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/age_text_filed_hint" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/bottom_margin">
+
+            <android.support.v7.widget.AppCompatEditText
+                android:textStyle="bold"
+                android:inputType="textEmailAddress"
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/email_text_filed_hint" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/enter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="send_Data_to_Quiz_Activity"
+            android:text="@string/enter_Button" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

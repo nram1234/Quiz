@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="welcome">Welcome to Quiz we hoppe you have fun with it to start you need to enter your name and age and your email to send back the score</string>
+    <string name="name_text_filed_hint"> Name</string>
+    <string name="age_text_filed_hint"> Age</string>
+    <string name="email_text_filed_hint"> Email</string>
+    <string name="enter_Button">Enter</string>
+    <string name="question_1">What is the name of the German airline?</string>
+    <string name="answer_1">Lufthansa</string>
+
+    <string name="question_2">How long is the Great Wall of China?</string>
+    <string name="answer_2_1">4000 miles</string>
+    <string name="answer_2_2">4200 miles</string>
+    <string name="answer_2_3">3000 miles</string>
+    <string name="answer_2_4">5000 miles</string>
+
+    <string name="question_3">Can get Number 100 From</string>
+    <string name="answer_3_1">2*50</string>
+    <string name="answer_3_2">75+25</string>
+    <string name="answer_3_3">90+30</string>
+    <string name="answer_3_4">5+88</string>
+
+    <string name="question_4">princess diana die In the year 1997?</string>
+
+    <string name="question_5">when you mix red and white  you get Pink colour </string>
+    <string name="send_answer">SEND THE ANSWER</string>
+</resources>

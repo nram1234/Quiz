@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="layout_margin">8dp</dimen>
+    <dimen name="textsize">22sp</dimen>
+    <dimen name="top_margin">22dp</dimen>
+    <dimen name="bottom_margin">22dp</dimen>
+    <dimen name="bottom_margin_card">8dp</dimen>
+    <dimen name="cardElevation">4dp</dimen>
+    <dimen name="bottom_margin_Last_card">25dp</dimen>
+</resources>
